@@ -1,0 +1,855 @@
+{
+  "meta": {
+    "titulo": "Silla de Eliyahu (Kisé Eliyahu) de Isaac Garzón Serfaty z”l",
+    "title_en": "Elijah's Chair (Kisé Eliyahu) by Isaac Garzón Serfaty z”l",
+    "unidades": "cm",
+    "licencia": "CC BY 4.0 · atribución: Isaac Garzón Serfaty z”l",
+    "fuente": "plano a lápiz de Isaac Garzón Serfaty (original/plano-isaac.jpg), plantilla de letras (original/plantilla-letras.jpg) y primer CAD de Acacia Waich, rehecho a partir de esas fuentes",
+    "ejes": "x: ancho, de izquierda a derecha mirando la silla de frente · y: fondo, 0 = cara trasera de los postes, crece hacia delante · z: alto desde el suelo",
+    "espiga": 2.5,
+    "origenes": {
+      "plano": "cota escrita en el plano de Isaac",
+      "deducido": "se obtiene sumando o restando cotas del plano",
+      "supuesto": "no está en el plano; elegido para que la silla se pueda construir. A validar por un carpintero"
+    },
+    "espigas_nota": "Espigas de 2,5 cm en chambranas, travesaño del respaldo y copete; de 3,5 en travesaños del asiento, brazos y patas. Donde dos espigas entran en el mismo poste a la misma altura, se cortan a inglete. Grueso de espiga: 1 cm en piezas de 3"
+  },
+  "cotas": {
+    "alto_total": {
+      "valor": 164.5,
+      "origen": "deducido",
+      "nota": "Suma del alzado trasero: 20 + 5 + 40 + 5 + 8 + 8 + 45,5 + 15 + 18. En el lateral Isaac escribió 159: ver duda D1"
+    },
+    "alto_asiento": {
+      "valor": 70,
+      "origen": "deducido",
+      "nota": "20 + 5 + 40 + 5 en los dos alzados"
+    },
+    "alto_cojin_asiento": {
+      "valor": 78,
+      "origen": "deducido",
+      "nota": "70 + 8 del alzado trasero"
+    },
+    "alto_brazo_atras": {
+      "valor": 101,
+      "origen": "plano",
+      "nota": "«Altura apoya brazo 101 atrás»"
+    },
+    "alto_brazo_delante": {
+      "valor": 95,
+      "origen": "plano",
+      "nota": "«95 frente», en la punta del brazo"
+    },
+    "ancho_exterior": {
+      "valor": 65,
+      "origen": "plano",
+      "nota": "Alzado trasero: 65 entre las caras exteriores de los postes"
+    },
+    "ancho_interior": {
+      "valor": 55,
+      "origen": "deducido",
+      "nota": "65 − 2 × 5"
+    },
+    "fondo": {
+      "valor": 59,
+      "origen": "plano",
+      "nota": "Alzado lateral: de la cara trasera del poste a la cara delantera de la pata"
+    },
+    "seccion_patas": {
+      "valor": "5 × 5",
+      "origen": "plano",
+      "nota": "«Las patas son de 5×5»"
+    },
+    "seccion_chambranas": {
+      "valor": "5 × 3",
+      "origen": "plano",
+      "nota": "«Las chambranas son de 5×3»"
+    },
+    "seccion_brazos": {
+      "valor": "8 × 4",
+      "origen": "plano",
+      "nota": "«Espesor apoya brazo 8×4»"
+    },
+    "copete": {
+      "valor": "26 × 3",
+      "origen": "plano",
+      "nota": "«Espaldar con dibujo 26×3». 15 en los hombros, 26 en el centro"
+    },
+    "respaldo_inferior": {
+      "valor": "8 × 2,5",
+      "origen": "plano",
+      "nota": "«El espaldar de abajo 2,5»; debajo pone «8×3», así que el grueso puede ser 3. Alto 8 del alzado trasero"
+    },
+    "reposapies": {
+      "valor": "67 × 13 × 2,5",
+      "origen": "plano",
+      "nota": "«Apoyo del pie 67×13×2,5». A 12 cm del suelo según el lateral. Ver duda D6"
+    },
+    "esterillado": {
+      "valor": "listones 3 × 1",
+      "origen": "plano",
+      "nota": "«Lleva un esterillado de madera abajo con maderas de 3×1 al ras de la chambrana»"
+    },
+    "letras": {
+      "valor": "3,5",
+      "origen": "plano",
+      "nota": "«Letras bajas 3,5 cm». La plantilla está a tamaño real. Grabadas en la cara delantera del copete"
+    },
+    "largo_brazo": {
+      "valor": 66,
+      "origen": "plano",
+      "nota": "«66 interno», dibujado a lo largo del brazo"
+    },
+    "vuelo_brazo": {
+      "valor": 10,
+      "origen": "plano",
+      "nota": "El «10» del lateral, entre la cara delantera de la pata y la punta del brazo"
+    }
+  },
+  "inscripcion": {
+    "lineas": [
+      "זה כסא אליהו הנביא",
+      "זכור לטוב"
+    ],
+    "traduccion": "Esta es la silla del profeta Elías, recordado para bien.",
+    "translation": "This is the chair of Elijah the prophet, remembered for good.",
+    "palabras": [
+      "זה",
+      "כסא",
+      "אליהו",
+      "הנביא",
+      "זכור",
+      "לטוב"
+    ],
+    "alto_letra": 3.5,
+    "linea_base": [
+      141,
+      135
+    ],
+    "nota": "Croquis de Isaac: cuatro palabras arriba (1-4) y dos abajo (5-6), centradas en el copete. Con letras de 3,5 cm, la línea de arriba mide unos 47 cm y la de abajo unos 22. Para grabar, calcar la plantilla original, que está a tamaño real (ver D5)."
+  },
+  "piezas": [
+    {
+      "id": "poste-izq",
+      "tipo": "poste-trasero",
+      "nombre": "Poste trasero",
+      "name": "Back post",
+      "forma": "caja",
+      "caja": [
+        0,
+        0,
+        0,
+        5,
+        5,
+        164.5
+      ],
+      "seccion": "5 × 5",
+      "espigas": 0,
+      "origen": "deducido",
+      "explota": [
+        -1,
+        -0.6,
+        0
+      ],
+      "nota": "164,5 de alto (ver D1). Remate superior con la arista delantera redondeada (r ≈ 2 cm)"
+    },
+    {
+      "id": "poste-der",
+      "tipo": "poste-trasero",
+      "nombre": "Poste trasero",
+      "name": "Back post",
+      "forma": "caja",
+      "caja": [
+        60,
+        0,
+        0,
+        65,
+        5,
+        164.5
+      ],
+      "seccion": "5 × 5",
+      "espigas": 0,
+      "origen": "deducido",
+      "explota": [
+        1,
+        -0.6,
+        0
+      ]
+    },
+    {
+      "id": "pata-izq",
+      "tipo": "pata-delantera",
+      "nombre": "Pata delantera",
+      "name": "Front leg",
+      "forma": "caja",
+      "caja": [
+        0,
+        54,
+        0,
+        5,
+        59,
+        92.4
+      ],
+      "seccion": "5 × 5",
+      "espigas": 1,
+      "origen": "deducido",
+      "explota": [
+        -1,
+        0.8,
+        0
+      ],
+      "nota": "Hombro inclinado como el brazo: 92,4 detrás y 91,9 delante. Mejor con espiga pasante acuñada por la cara de arriba del brazo",
+      "espiga_cm": 3.5
+    },
+    {
+      "id": "pata-der",
+      "tipo": "pata-delantera",
+      "nombre": "Pata delantera",
+      "name": "Front leg",
+      "forma": "caja",
+      "caja": [
+        60,
+        54,
+        0,
+        65,
+        59,
+        92.4
+      ],
+      "seccion": "5 × 5",
+      "espigas": 1,
+      "origen": "deducido",
+      "explota": [
+        1,
+        0.8,
+        0
+      ],
+      "espiga_cm": 3.5
+    },
+    {
+      "id": "chambrana-lat-izq",
+      "tipo": "chambrana-lateral",
+      "nombre": "Chambrana lateral",
+      "name": "Side stretcher",
+      "forma": "caja",
+      "caja": [
+        1,
+        5,
+        20,
+        4,
+        54,
+        25
+      ],
+      "seccion": "5 × 3",
+      "espigas": 2,
+      "origen": "plano",
+      "explota": [
+        -1.4,
+        0,
+        -0.3
+      ]
+    },
+    {
+      "id": "chambrana-lat-der",
+      "tipo": "chambrana-lateral",
+      "nombre": "Chambrana lateral",
+      "name": "Side stretcher",
+      "forma": "caja",
+      "caja": [
+        61,
+        5,
+        20,
+        64,
+        54,
+        25
+      ],
+      "seccion": "5 × 3",
+      "espigas": 2,
+      "origen": "plano",
+      "explota": [
+        1.4,
+        0,
+        -0.3
+      ]
+    },
+    {
+      "id": "chambrana-del",
+      "tipo": "chambrana-frontal",
+      "nombre": "Chambrana delantera y trasera",
+      "name": "Front and back stretcher",
+      "forma": "caja",
+      "caja": [
+        5,
+        55,
+        20,
+        60,
+        58,
+        25
+      ],
+      "seccion": "5 × 3",
+      "espigas": 2,
+      "origen": "supuesto",
+      "explota": [
+        0,
+        1.4,
+        -0.3
+      ],
+      "nota": "El plano no la dibuja; hace falta para cerrar el marco del esterillado"
+    },
+    {
+      "id": "chambrana-tras",
+      "tipo": "chambrana-frontal",
+      "nombre": "Chambrana delantera y trasera",
+      "name": "Front and back stretcher",
+      "forma": "caja",
+      "caja": [
+        5,
+        1,
+        20,
+        60,
+        4,
+        25
+      ],
+      "seccion": "5 × 3",
+      "espigas": 2,
+      "origen": "plano",
+      "explota": [
+        0,
+        -1.4,
+        -0.3
+      ]
+    },
+    {
+      "id": "esterillado",
+      "tipo": "liston-esterillado",
+      "nombre": "Listón del esterillado",
+      "name": "Slatted shelf slat",
+      "forma": "listones",
+      "caja": [
+        5,
+        5,
+        24,
+        60,
+        54,
+        25
+      ],
+      "seccion": "3 × 1",
+      "espigas": 0,
+      "listones": {
+        "cantidad": 11,
+        "ancho": 3,
+        "direccion": "x"
+      },
+      "origen": "plano",
+      "explota": [
+        0,
+        0,
+        -1.8
+      ],
+      "nota": "11 listones de 55 cm, separados 1,6 cm, con la cara de arriba al ras de las chambranas (z = 25)"
+    },
+    {
+      "id": "soporte-esterillado-izq",
+      "tipo": "soporte-esterillado",
+      "nombre": "Listón soporte del esterillado",
+      "name": "Shelf cleat",
+      "forma": "caja",
+      "caja": [
+        4,
+        5,
+        22,
+        6,
+        54,
+        24
+      ],
+      "seccion": "2 × 2",
+      "espigas": 0,
+      "origen": "supuesto",
+      "explota": [
+        -0.6,
+        0,
+        -1.6
+      ],
+      "nota": "Encolado y atornillado por dentro de la chambrana lateral"
+    },
+    {
+      "id": "soporte-esterillado-der",
+      "tipo": "soporte-esterillado",
+      "nombre": "Listón soporte del esterillado",
+      "name": "Shelf cleat",
+      "forma": "caja",
+      "caja": [
+        59,
+        5,
+        22,
+        61,
+        54,
+        24
+      ],
+      "seccion": "2 × 2",
+      "espigas": 0,
+      "origen": "supuesto",
+      "explota": [
+        0.6,
+        0,
+        -1.6
+      ]
+    },
+    {
+      "id": "travesano-asiento-lat-izq",
+      "tipo": "travesano-asiento-lateral",
+      "nombre": "Travesaño lateral del asiento",
+      "name": "Side seat rail",
+      "forma": "caja",
+      "caja": [
+        1,
+        5,
+        65,
+        4,
+        54,
+        70
+      ],
+      "seccion": "5 × 3",
+      "espigas": 2,
+      "origen": "plano",
+      "explota": [
+        -1.2,
+        0,
+        0.2
+      ],
+      "espiga_cm": 3.5
+    },
+    {
+      "id": "travesano-asiento-lat-der",
+      "tipo": "travesano-asiento-lateral",
+      "nombre": "Travesaño lateral del asiento",
+      "name": "Side seat rail",
+      "forma": "caja",
+      "caja": [
+        61,
+        5,
+        65,
+        64,
+        54,
+        70
+      ],
+      "seccion": "5 × 3",
+      "espigas": 2,
+      "origen": "plano",
+      "explota": [
+        1.2,
+        0,
+        0.2
+      ],
+      "espiga_cm": 3.5
+    },
+    {
+      "id": "travesano-asiento-del",
+      "tipo": "travesano-asiento-frontal",
+      "nombre": "Travesaño delantero y trasero del asiento",
+      "name": "Front and back seat rail",
+      "forma": "caja",
+      "caja": [
+        5,
+        55,
+        65,
+        60,
+        58,
+        70
+      ],
+      "seccion": "5 × 3",
+      "espigas": 2,
+      "origen": "deducido",
+      "explota": [
+        0,
+        1.2,
+        0.2
+      ],
+      "espiga_cm": 3.5
+    },
+    {
+      "id": "travesano-asiento-tras",
+      "tipo": "travesano-asiento-frontal",
+      "nombre": "Travesaño delantero y trasero del asiento",
+      "name": "Front and back seat rail",
+      "forma": "caja",
+      "caja": [
+        5,
+        1,
+        65,
+        60,
+        4,
+        70
+      ],
+      "seccion": "5 × 3",
+      "espigas": 2,
+      "origen": "plano",
+      "explota": [
+        0,
+        -1.2,
+        0.2
+      ],
+      "espiga_cm": 3.5
+    },
+    {
+      "id": "apoyo-asiento-izq",
+      "tipo": "apoyo-asiento",
+      "nombre": "Listón de apoyo del asiento",
+      "name": "Seat cleat",
+      "forma": "caja",
+      "caja": [
+        4,
+        5,
+        68,
+        6,
+        54,
+        70
+      ],
+      "seccion": "2 × 2",
+      "espigas": 0,
+      "origen": "supuesto",
+      "explota": [
+        -0.6,
+        0,
+        0.6
+      ],
+      "nota": "Encolado y atornillado por dentro del travesaño lateral del asiento"
+    },
+    {
+      "id": "apoyo-asiento-der",
+      "tipo": "apoyo-asiento",
+      "nombre": "Listón de apoyo del asiento",
+      "name": "Seat cleat",
+      "forma": "caja",
+      "caja": [
+        59,
+        5,
+        68,
+        61,
+        54,
+        70
+      ],
+      "seccion": "2 × 2",
+      "espigas": 0,
+      "origen": "supuesto",
+      "explota": [
+        0.6,
+        0,
+        0.6
+      ],
+      "nota": "Encolado y atornillado por dentro del travesaño lateral del asiento"
+    },
+    {
+      "id": "asiento",
+      "tipo": "asiento",
+      "nombre": "Asiento tapizado",
+      "name": "Upholstered seat",
+      "forma": "tapizado",
+      "caja": [
+        5,
+        4,
+        70,
+        60,
+        58,
+        78
+      ],
+      "seccion": "tablero 55 × 54 × 1,5 + espuma",
+      "espigas": 0,
+      "origen": "deducido",
+      "explota": [
+        0,
+        0.3,
+        1
+      ],
+      "nota": "Tablero de contrachapado de 1,5 sobre los travesaños delantero y trasero y sobre dos listones de apoyo; espuma y tapizado hasta z = 78. Se recomiendan cuatro escuadras de madera en las esquinas del bastidor"
+    },
+    {
+      "id": "respaldo-inferior",
+      "tipo": "respaldo-inferior",
+      "nombre": "Travesaño inferior del respaldo",
+      "name": "Lower back rail",
+      "forma": "caja",
+      "caja": [
+        5,
+        1.25,
+        78,
+        60,
+        3.75,
+        86
+      ],
+      "seccion": "8 × 2,5",
+      "espigas": 2,
+      "origen": "plano",
+      "explota": [
+        0,
+        -1,
+        0.5
+      ],
+      "nota": "El plano pone «2,5» y debajo «8×3»: si se compra a 3, el grueso de la caja en el poste es 3. En el alzado trasero sus testas asoman: pueden ser espigas pasantes (largo 65)"
+    },
+    {
+      "id": "respaldo",
+      "tipo": "respaldo",
+      "nombre": "Respaldo tapizado",
+      "name": "Upholstered back",
+      "forma": "tapizado",
+      "caja": [
+        5,
+        1.25,
+        86,
+        60,
+        6,
+        131.5
+      ],
+      "seccion": "tablero 1,5 + espuma",
+      "espigas": 0,
+      "origen": "plano",
+      "explota": [
+        0,
+        -0.8,
+        0.7
+      ],
+      "nota": "Alto 45,5, como en el alzado trasero. Se atornilla por detrás a listones de 2 × 2 encolados en los postes, el travesaño inferior y el copete"
+    },
+    {
+      "id": "copete",
+      "tipo": "copete",
+      "nombre": "Copete con dibujo",
+      "name": "Crest rail",
+      "forma": "copete",
+      "caja": [
+        5,
+        1,
+        131.5,
+        60,
+        4,
+        157.5
+      ],
+      "seccion": "26 × 3",
+      "espigas": 2,
+      "perfil": {
+        "hombro": 15,
+        "pico": 26,
+        "tramo_recto": 7
+      },
+      "origen": "plano",
+      "explota": [
+        0,
+        -1,
+        1.2
+      ],
+      "nota": "Recto 7 cm junto a cada poste y luego un arco en campana hasta 26 en el centro. Lleva grabada la inscripción en la cara delantera. Va 1 cm por detrás de la cara delantera de los postes; en la foto parece enrasado"
+    },
+    {
+      "id": "brazo-izq",
+      "tipo": "brazo",
+      "nombre": "Brazo",
+      "name": "Arm",
+      "forma": "brazo",
+      "caja": [
+        -5,
+        5,
+        91,
+        5,
+        69,
+        101
+      ],
+      "seccion": "8 × 4",
+      "espigas": 1,
+      "brazo": {
+        "x_interior": 5,
+        "ancho_atras": 8,
+        "ancho_delante": 10,
+        "hacia": -1,
+        "y0": 5,
+        "y1": 69,
+        "z_atras": 101,
+        "z_delante": 95,
+        "grueso": 4
+      },
+      "origen": "plano",
+      "explota": [
+        -1.6,
+        0.4,
+        0.8
+      ],
+      "nota": "Arista interior enrasada con la cara interior del poste: vuela 3 por fuera. Entra en el poste a 97-101 y vuela 10 por delante de la pata. Ensanche de 8 a 10 en la punta: supuesto, por las fotos. Cortar a 70 y recortar la punta en obra (D3)",
+      "espiga_cm": 3.5,
+      "corte_cm": 70
+    },
+    {
+      "id": "brazo-der",
+      "tipo": "brazo",
+      "nombre": "Brazo",
+      "name": "Arm",
+      "forma": "brazo",
+      "caja": [
+        60,
+        5,
+        91,
+        70,
+        69,
+        101
+      ],
+      "seccion": "8 × 4",
+      "espigas": 1,
+      "brazo": {
+        "x_interior": 60,
+        "ancho_atras": 8,
+        "ancho_delante": 10,
+        "hacia": 1,
+        "y0": 5,
+        "y1": 69,
+        "z_atras": 101,
+        "z_delante": 95,
+        "grueso": 4
+      },
+      "origen": "plano",
+      "explota": [
+        1.6,
+        0.4,
+        0.8
+      ],
+      "espiga_cm": 3.5,
+      "corte_cm": 70
+    },
+    {
+      "id": "reposapies",
+      "tipo": "reposapies",
+      "nombre": "Reposapiés",
+      "name": "Footrest",
+      "forma": "caja",
+      "caja": [
+        -1,
+        52,
+        12,
+        66,
+        65,
+        14.5
+      ],
+      "seccion": "13 × 2,5",
+      "espigas": 0,
+      "origen": "supuesto",
+      "explota": [
+        0,
+        1.8,
+        -0.2
+      ],
+      "nota": "Retrasado por seguridad (D6): de y 52 a 65, cajeado 5 × 5 alrededor de cada pata. Cara de abajo a 12 cm del suelo"
+    },
+    {
+      "id": "travesano-reposapies",
+      "tipo": "travesano-reposapies",
+      "nombre": "Travesaño del reposapiés",
+      "name": "Footrest rail",
+      "forma": "caja",
+      "caja": [
+        5,
+        55,
+        7,
+        60,
+        58,
+        12
+      ],
+      "seccion": "5 × 3",
+      "espigas": 2,
+      "origen": "supuesto",
+      "explota": [
+        0,
+        1.2,
+        -0.5
+      ],
+      "nota": "Entre las patas delanteras, bajo el reposapiés (D6)"
+    },
+    {
+      "id": "mensula-izq",
+      "tipo": "mensula",
+      "nombre": "Ménsula del reposapiés",
+      "name": "Footrest bracket",
+      "forma": "mensula",
+      "caja": [
+        1,
+        59,
+        5.5,
+        4,
+        65,
+        12
+      ],
+      "seccion": "6 × 6,5 × 3",
+      "espigas": 0,
+      "origen": "deducido",
+      "explota": [
+        -0.4,
+        1.4,
+        -0.4
+      ],
+      "nota": "Escuadra con el lado de abajo en curva, atornillada por delante de la pata, bajo el vuelo del reposapiés"
+    },
+    {
+      "id": "mensula-der",
+      "tipo": "mensula",
+      "nombre": "Ménsula del reposapiés",
+      "name": "Footrest bracket",
+      "forma": "mensula",
+      "caja": [
+        61,
+        59,
+        5.5,
+        64,
+        65,
+        12
+      ],
+      "seccion": "6 × 6,5 × 3",
+      "espigas": 0,
+      "origen": "deducido",
+      "explota": [
+        0.4,
+        1.4,
+        -0.4
+      ]
+    }
+  ],
+  "dudas": [
+    {
+      "id": "D1",
+      "titulo": "Alto total: 159 o 164,5",
+      "detalle": "El alzado lateral suma 20 + 5 + 40 + 5 + 27 + 4 + 58 = 159, que coincide con la cota total que escribió Isaac. El trasero suma 20 + 5 + 40 + 5 + 8 + 8 + 45,5 + 15 + 18 = 164,5. Una de las dos cadenas tiene una cota mal.",
+      "decision": "Se respetan las medidas de las piezas del alzado trasero, con el respaldo de 45,5 como está escrito: los postes miden 164,5 y el «58» del lateral pasa a 63,5. Las proporciones de las fotos encajan mejor con 45,5 que con un respaldo recortado.",
+      "alternativa": "Mantener 159 acortando de 18 a 12,5 lo que el poste asoma sobre el hombro del copete. Medir la silla donada lo resuelve"
+    },
+    {
+      "id": "D2",
+      "titulo": "Ancho: 65 por fuera",
+      "detalle": "El alzado trasero acota 65 entre las caras exteriores de los postes. El «66 interno» del croquis de los brazos está dibujado a lo largo del brazo: es su largo, no un ancho.",
+      "decision": "65 por fuera y 55 por dentro. Las fotos dan un interior de ese orden.",
+      "alternativa": "—"
+    },
+    {
+      "id": "D3",
+      "titulo": "El vuelo del brazo",
+      "detalle": "El «10» del lateral está entre la cara delantera de la pata y la punta del brazo: el brazo vuela 10 cm. Con «66 interno» como largo, la punta queda entre 7 y 12 cm por delante de la pata. En la foto parece que vuela unos 5.",
+      "decision": "Vuelo de 10 y brazo de 64 visibles desde el poste. Cortar los brazos a 70 y recortar la punta en obra. El ensanche de 8 a 10 en la punta es un supuesto sacado de las fotos.",
+      "alternativa": "Vuelo de 5, como parece en la foto"
+    },
+    {
+      "id": "D4",
+      "titulo": "Chambrana delantera y esterillado",
+      "detalle": "El plano dice que lleva esterillado al ras de la chambrana, pero no dibuja la chambrana delantera ni cómo se apoyan los listones.",
+      "decision": "Chambrana delantera igual que la trasera y dos listones de 2 × 2 por dentro de las laterales para apoyar 11 listones de 3 × 1 de 55 cm, entre los postes y las patas.",
+      "alternativa": "Listones de delante a atrás, apoyados en la chambrana delantera y la trasera"
+    },
+    {
+      "id": "D5",
+      "titulo": "Las letras",
+      "detalle": "La plantilla está a tamaño real: los números 32, 26 y 11,5 que la acompañan (69,5 en total) son los largos de las tres filas de la hoja, y a esa escala las letras miden entre 3,5 y 3,9 cm, lo mismo que dice la nota «letras bajas 3,5 cm». La escala se ha deducido así, no medido: el escaneo no trae resolución.",
+      "decision": "Letras de 3,5 cm en dos líneas centradas: la de arriba mide unos 47 cm y la de abajo unos 22, con unos 4 cm de margen a cada lado en los 55 del copete. Antes de grabar, comprobar en papel que la línea de arriba cabe.",
+      "alternativa": "—"
+    },
+    {
+      "id": "D6",
+      "titulo": "Reposapiés y vuelco",
+      "detalle": "En el plano el reposapiés va entero por delante de las patas, a 12 del suelo (Isaac escribe 12 y 13: 12 parece la altura y 13 el fondo de la tabla). Es el escalón natural para subirse a un asiento de 70, y si un adulto pisa su borde delantero puede volcar la silla hacia delante.",
+      "decision": "Se retrasa: la tabla va de 7 cm por detrás a 6 cm por delante de la cara de las patas, cajeada alrededor de ellas, sobre un travesaño de 5 × 3 entre las patas y dos ménsulas cortas.",
+      "alternativa": "El reposapiés de Isaac, entero por delante, con un travesaño bajo su arista trasera y la advertencia de no subirse por él"
+    }
+  ]
+}

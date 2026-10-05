@@ -1,0 +1,18 @@
+pieza,piece,cantidad,seccion_cm,largo_visible_cm,largo_corte_cm,espigas,espiga_cm,origen,nota
+Poste trasero,Back post,2,5 × 5,164.5,164.5,0,0,deducido,"164,5 de alto (ver D1). Remate superior con la arista delantera redondeada (r ≈ 2 cm)"
+Pata delantera,Front leg,2,5 × 5,92.4,95.9,1,3.5,deducido,"Hombro inclinado como el brazo: 92,4 detrás y 91,9 delante. Mejor con espiga pasante acuñada por la cara de arriba del brazo"
+Chambrana lateral,Side stretcher,2,5 × 3,49,54.0,2,2.5,plano,
+Chambrana delantera y trasera,Front and back stretcher,2,5 × 3,55,60.0,2,2.5,plano / supuesto,El plano no la dibuja; hace falta para cerrar el marco del esterillado
+Listón del esterillado,Slatted shelf slat,11,3 × 1,55,55.0,0,0,plano,"11 listones de 55 cm, separados 1,6 cm, con la cara de arriba al ras de las chambranas (z = 25)"
+Listón soporte del esterillado,Shelf cleat,2,2 × 2,49,49.0,0,0,supuesto,Encolado y atornillado por dentro de la chambrana lateral
+Travesaño lateral del asiento,Side seat rail,2,5 × 3,49,56.0,2,3.5,plano,
+Travesaño delantero y trasero del asiento,Front and back seat rail,2,5 × 3,55,62.0,2,3.5,deducido,
+Listón de apoyo del asiento,Seat cleat,2,2 × 2,49,49.0,0,0,supuesto,Encolado y atornillado por dentro del travesaño lateral del asiento
+Asiento tapizado,Upholstered seat,1,"tablero 55 × 54 × 1,5 + espuma",55,55.0,0,0,deducido,"Tablero de contrachapado de 1,5 sobre los travesaños delantero y trasero y sobre dos listones de apoyo; espuma y tapizado hasta z = 78. Se recomiendan cuatro escuadras de madera en las esquinas del bastidor"
+Travesaño inferior del respaldo,Lower back rail,1,"8 × 2,5",55,60.0,2,2.5,plano,"El plano pone «2,5» y debajo «8×3»: si se compra a 3, el grueso de la caja en el poste es 3. En el alzado trasero sus testas asoman: pueden ser espigas pasantes (largo 65)"
+Respaldo tapizado,Upholstered back,1,"tablero 1,5 + espuma",55,55.0,0,0,plano,"Alto 45,5, como en el alzado trasero. Se atornilla por detrás a listones de 2 × 2 encolados en los postes, el travesaño inferior y el copete"
+Copete con dibujo,Crest rail,1,26 × 3,55,60.0,2,2.5,plano,Recto 7 cm junto a cada poste y luego un arco en campana hasta 26 en el centro. Lleva grabada la inscripción en la cara delantera. Va 1 cm por detrás de la cara delantera de los postes; en la foto parece enrasado
+Brazo,Arm,2,8 × 4,64.3,70,1,3.5,plano,"Arista interior enrasada con la cara interior del poste: vuela 3 por fuera. Entra en el poste a 97-101 y vuela 10 por delante de la pata. Ensanche de 8 a 10 en la punta: supuesto, por las fotos. Cortar a 70 y recortar la punta en obra (D3)"
+Reposapiés,Footrest,1,"13 × 2,5",67,67.0,0,0,supuesto,"Retrasado por seguridad (D6): de y 52 a 65, cajeado 5 × 5 alrededor de cada pata. Cara de abajo a 12 cm del suelo"
+Travesaño del reposapiés,Footrest rail,1,5 × 3,55,60.0,2,2.5,supuesto,"Entre las patas delanteras, bajo el reposapiés (D6)"
+Ménsula del reposapiés,Footrest bracket,2,"6 × 6,5 × 3",6.5,6.5,0,0,deducido,"Escuadra con el lado de abajo en curva, atornillada por delante de la pata, bajo el vuelo del reposapiés"

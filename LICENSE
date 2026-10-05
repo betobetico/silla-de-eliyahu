@@ -1,0 +1,16 @@
+Plano, medidas, dibujos y textos de la silla de Eliyahu
+Copyright © Isaac Garzón Serfaty z”l y su familia
+
+Esta obra está bajo una licencia Creative Commons Atribución 4.0 Internacional (CC BY 4.0).
+https://creativecommons.org/licenses/by/4.0/deed.es
+Texto legal: https://creativecommons.org/licenses/by/4.0/legalcode.es
+
+Se puede copiar, distribuir, modificar y usar con fines comerciales, siempre que se cite:
+«Silla de Eliyahu de Isaac Garzón Serfaty z”l — github.com/betobetico/silla-de-eliyahu»
+
+Cubre: plano/ (silla.json, DXF, PDF, despiece y escaneos de original/) y los textos de la web.
+El código (plano/generar.py y web/) tiene licencia MIT: ver LICENSE-CODE.
+
+No cubre las fotos de web/public/historia/, que son de sus autores.
+Para usarlas fuera de esta web, hay que pedirles permiso.
+La fuente de plano/fuentes/ tiene su propia licencia (SIL OFL 1.1, ver plano/fuentes/OFL.txt).

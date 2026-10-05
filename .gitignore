@@ -1,0 +1,8 @@
+.DS_Store
+.venv/
+__pycache__/
+node_modules/
+.env*
+.vercel/
+web/.next/
+web/out/
