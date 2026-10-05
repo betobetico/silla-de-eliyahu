@@ -25,8 +25,8 @@ const es = {
     titulo: "Lo que quería tito Isaque",
     parrafos: [
       "En cada brit milá se reserva una silla para el profeta Eliyahu. Según la tradición, Eliyahu está presente en cada circuncisión, y la silla lleva grabado que es la suya.",
-      "Isaac Garzón Serfaty quería que las sinagogas pudieran tener su silla de brit. Dibujó esta con sus medidas: la altura de los brazos, la sección de cada listón y la plantilla de las letras.",
-      "No hace falta esperar a que alguien la regale. Con su plano, cualquier carpintero puede hacerla.",
+      "Isaac Garzón Serfaty hizo sillas de Eliyahu y las donó a sinagogas de Caracas, Porlamar y Miami. Dibujó esta con todas sus medidas: la altura de los brazos, la sección de cada listón y la plantilla de las letras.",
+      "En Madrid quisimos seguir su legado con una en la sinagoga Or Hayeladim. Ahora su plano es de todos, para que cada uno pueda hacer la silla y multiplicar su mitzvá.",
     ],
   },
   piezas: {
@@ -110,6 +110,18 @@ const es = {
       },
     ],
   },
+  sillas: {
+    titulo: "Dónde hay una silla de Isaac",
+    texto:
+      "Isaac donó sillas a sinagogas de Venezuela y de Estados Unidos. La de Madrid se hizo con su plano. Si sabes de otra, o si haces la tuya, cuéntanoslo y la añadimos.",
+    lista: [
+      { lugar: "Caracas", pais: "Venezuela", sinagoga: "", nota: "Donada por Isaac" },
+      { lugar: "Porlamar, isla de Margarita", pais: "Venezuela", sinagoga: "", nota: "Donada por Isaac" },
+      { lugar: "Miami", pais: "Estados Unidos", sinagoga: "Skylake", nota: "Donada por Isaac" },
+      { lugar: "Madrid", pais: "España", sinagoga: "Or Hayeladim", nota: "Julio de 2017 · hecha con su plano" },
+    ],
+    boton: "Cuéntanos dónde hay otra",
+  },
   letras: {
     titulo: "Las letras",
     texto:
@@ -185,8 +197,8 @@ const en: Dict = {
     titulo: "What Uncle Isaque wanted",
     parrafos: [
       "At every brit milah a chair is set aside for Elijah the prophet. By tradition, Elijah is present at every circumcision, and the chair is engraved to say it is his.",
-      "Isaac Garzón Serfaty wanted synagogues to be able to have their own brit chair. He drew this one with its measurements: the height of the arms, the section of every rail and the template for the letters.",
-      "There is no need to wait for someone to donate one. With his plan, any carpenter can make it.",
+      "Isaac Garzón Serfaty built Elijah's chairs and donated them to synagogues in Caracas, Porlamar and Miami. He drew this one with all its measurements: the height of the arms, the section of every rail and the template for the letters.",
+      "In Madrid we tried to carry on his legacy with one at the Or Hayeladim synagogue. Now his plan belongs to everyone, so that anyone can build the chair and multiply his mitzvah.",
     ],
   },
   piezas: {
@@ -269,6 +281,18 @@ const en: Dict = {
         ],
       },
     ],
+  },
+  sillas: {
+    titulo: "Where Isaac's chairs are",
+    texto:
+      "Isaac donated chairs to synagogues in Venezuela and the United States. The one in Madrid was built from his plan. If you know of another, or if you build yours, tell us and we will add it.",
+    lista: [
+      { lugar: "Caracas", pais: "Venezuela", sinagoga: "", nota: "Donated by Isaac" },
+      { lugar: "Porlamar, Margarita Island", pais: "Venezuela", sinagoga: "", nota: "Donated by Isaac" },
+      { lugar: "Miami", pais: "United States", sinagoga: "Skylake", nota: "Donated by Isaac" },
+      { lugar: "Madrid", pais: "Spain", sinagoga: "Or Hayeladim", nota: "July 2017 · built from his plan" },
+    ],
+    boton: "Tell us about another one",
   },
   letras: {
     titulo: "The letters",

@@ -67,6 +67,28 @@ export default function Pagina({ lang }: { lang: Lang }) {
           ))}
         </section>
 
+        <section className="bloque sillas" id="sillas">
+          <div className="col-texto">
+            <h2>{t.sillas.titulo}</h2>
+            <p>{t.sillas.texto}</p>
+            <a className="enlace" href={`https://github.com/betobetico/silla-de-eliyahu/issues/new?title=${encodeURIComponent(lang === "es" ? "Otra silla de Eliyahu" : "Another Elijah's chair")}&body=${encodeURIComponent(lang === "es" ? "Sinagoga:\nCiudad y país:\n¿La hizo Isaac o se hizo con su plano?\nFoto (si tienes):" : "Synagogue:\nCity and country:\nBuilt by Isaac or from his plan?\nPhoto (if you have one):")}`}>
+              {t.sillas.boton} ↗
+            </a>
+          </div>
+          <ol className="lista-sillas">
+            {t.sillas.lista.map((x) => (
+              <li key={x.lugar}>
+                <span className="lugar">
+                  {x.sinagoga ? `${x.sinagoga} · ` : ""}
+                  {x.lugar}
+                </span>
+                <span className="pais">{x.pais}</span>
+                <span className="nota">{x.nota}</span>
+              </li>
+            ))}
+          </ol>
+        </section>
+
         <section className="bloque tuya">
           <h2>{t.tuya.titulo}</h2>
           <div className="tuya-texto">

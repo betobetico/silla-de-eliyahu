@@ -77,6 +77,17 @@ Yo no puedo hacer sillas para todo el mundo. Pero cualquiera puede coger este pl
 
 La silla que se hizo con este plano en 2016-2017 está en la sinagoga Or Hayeladim de Madrid. La historia, con fotos, está en la web.
 
+## Dónde hay una silla de Isaac
+
+| Sinagoga | Ciudad | |
+|---|---|---|
+| — | Caracas (Venezuela) | Donada por Isaac |
+| — | Porlamar, isla de Margarita (Venezuela) | Donada por Isaac |
+| Skylake | Miami (Estados Unidos) | Donada por Isaac |
+| Or Hayeladim | Madrid (España) | Julio de 2017, hecha con su plano |
+
+Si sabes de otra, o si haces la tuya, [abre un *issue*](https://github.com/betobetico/silla-de-eliyahu/issues/new) y la añadimos.
+
 ## Créditos
 
 - Plano y primera silla: Isaac Garzón Serfaty z”l.

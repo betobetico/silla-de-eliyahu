@@ -77,6 +77,17 @@ I cannot make chairs for everyone. But anyone can take this plan to a carpenter 
 
 The chair built from this plan in 2016-2017 is at the Or Hayeladim synagogue in Madrid. The story, with photos, is on the website.
 
+## Where Isaac's chairs are
+
+| Synagogue | City | |
+|---|---|---|
+| — | Caracas (Venezuela) | Donated by Isaac |
+| — | Porlamar, Margarita Island (Venezuela) | Donated by Isaac |
+| Skylake | Miami (United States) | Donated by Isaac |
+| Or Hayeladim | Madrid (Spain) | July 2017, built from his plan |
+
+If you know of another, or build yours, [open an issue](https://github.com/betobetico/silla-de-eliyahu/issues/new) and we will add it.
+
 ## Credits
 
 - Plan and first chair: Isaac Garzón Serfaty z”l.

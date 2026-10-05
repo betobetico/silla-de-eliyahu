@@ -746,6 +746,48 @@ figcaption {
   grid-row: span 2;
 }
 
+/* ---------------------------------------------------------------- sillas */
+
+.lista-sillas {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid var(--tinta);
+}
+
+.lista-sillas li {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.15rem 1rem;
+  padding: 1rem 0.25rem;
+  border-bottom: 1px solid var(--regla);
+}
+
+.lista-sillas .lugar {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.lista-sillas .pais {
+  font: 500 0.8rem/1.6 var(--sans), Arial, sans-serif;
+  font-stretch: 85%;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--caoba);
+  text-align: right;
+}
+
+.lista-sillas .nota {
+  grid-column: 1 / -1;
+  font: 400 0.92rem/1.4 var(--sans), Arial, sans-serif;
+  color: var(--lapiz);
+}
+
+.sillas .enlace {
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+
 /* ---------------------------------------------------------------- haz la tuya */
 
 .tuya {
