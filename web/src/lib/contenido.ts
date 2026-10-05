@@ -23,6 +23,7 @@ const es = {
   },
   historia: {
     titulo: "Lo que quería tito Isaque",
+    retrato: "Isaac Garzón Serfaty z”l, tito Isaque.",
     parrafos: [
       "En cada brit milá se reserva una silla para el profeta Eliyahu. Según la tradición, Eliyahu está presente en cada circuncisión, y la silla lleva grabado que es la suya.",
       "Isaac Garzón Serfaty hizo sillas de Eliyahu y las donó a sinagogas de Caracas, Porlamar y Miami. Dibujó esta con todas sus medidas: la altura de los brazos, la sección de cada listón y la plantilla de las letras.",
@@ -195,6 +196,7 @@ const en: Dict = {
   },
   historia: {
     titulo: "What Uncle Isaque wanted",
+    retrato: "Isaac Garzón Serfaty z”l, Uncle Isaque.",
     parrafos: [
       "At every brit milah a chair is set aside for Elijah the prophet. By tradition, Elijah is present at every circumcision, and the chair is engraved to say it is his.",
       "Isaac Garzón Serfaty built Elijah's chairs and donated them to synagogues in Caracas, Porlamar and Miami. He drew this one with all its measurements: the height of the arms, the section of every rail and the template for the letters.",

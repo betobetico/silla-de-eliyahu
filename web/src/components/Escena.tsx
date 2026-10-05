@@ -112,7 +112,12 @@ export default function Escena({ lang }: { lang: Lang }) {
           </p>
         </article>
 
-        <article className={`cap ${capitulo === 1 ? "activo" : ""}`}>
+        <article className={`cap cap-historia ${capitulo === 1 ? "activo" : ""}`}>
+          <figure className="retrato">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/historia/isaac.jpg" alt={t.historia.retrato} width={900} height={1125} loading="lazy" decoding="async" />
+            <figcaption>{t.historia.retrato}</figcaption>
+          </figure>
           <h2>{t.historia.titulo}</h2>
           {t.historia.parrafos.map((p) => (
             <p key={p}>{p}</p>
