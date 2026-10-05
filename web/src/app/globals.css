@@ -561,12 +561,6 @@ figcaption {
   margin-bottom: 0.3rem;
 }
 
-.lugar {
-  margin-top: 1.4rem;
-  color: var(--lapiz);
-  font-size: 1rem;
-}
-
 .licencia {
   font: 400 0.9rem/1.5 var(--sans), Arial, sans-serif;
   color: var(--lapiz);
