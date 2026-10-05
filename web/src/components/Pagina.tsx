@@ -201,8 +201,6 @@ export default function Pagina({ lang }: { lang: Lang }) {
         </section>
 
         <section className="dedicatoria">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img className="cara" src="/historia/isaac-cara.jpg" alt={t.historia.retrato} width={480} height={480} loading="lazy" decoding="async" />
           <p lang="he" dir="rtl" className="inscripcion pequena">
             {silla.inscripcion.lineas.map((l) => (
               <span key={l}>{l}</span>
