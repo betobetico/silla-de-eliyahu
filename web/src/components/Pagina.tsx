@@ -12,7 +12,9 @@ export default function Pagina({ lang }: { lang: Lang }) {
         <a className="marca" href={lang === "es" ? "/" : "/en"}>
           <span lang="he">כסא אליהו</span>
         </a>
-        <nav>
+        <nav aria-label={lang === "es" ? "Navegación principal" : "Main navigation"}>
+          <a href={lang === "es" ? "/manuscrito" : "/en/manuscript"}>{lang === "es" ? "Manuscrito" : "Manuscript"}</a>
+          <a href="#sillas">{lang === "es" ? "Sillas" : "Chairs"}</a>
           <a href="#plano">{lang === "es" ? "Plano" : "Plan"}</a>
           <a href="#descargas">{lang === "es" ? "Descargas" : "Downloads"}</a>
           <a href={t.otro.href} hrefLang={lang === "es" ? "en" : "es"}>
@@ -67,6 +69,21 @@ export default function Pagina({ lang }: { lang: Lang }) {
           ))}
         </section>
 
+        <section className="bloque invitacion-manuscrito">
+          <div className="col-texto">
+            <p className="etiqueta-paso">{lang === "es" ? "De su puño y letra" : "In his own handwriting"}</p>
+            <h2>{lang === "es" ? "Lo que escribió Tito Isaque" : "What Uncle Isaque wrote"}</h2>
+            <p>{lang === "es" ? "En estas tres páginas, Isaac cuenta cómo hacía las sillas y recuerda los viajes a Miami y Maracaibo para llevarlas a un brit milá." : "In these three pages, Isaac tells how he made the chairs and recalls the journeys to Miami and Maracaibo to deliver them for a brit milah."}</p>
+            <a className="enlace" href={lang === "es" ? "/manuscrito" : "/en/manuscript"}>{lang === "es" ? "Ver el manuscrito y leer la transcripción" : "See the manuscript and read the Spanish transcription"} →</a>
+          </div>
+          <figure className="manuscrito-adelanto">
+            <a href={lang === "es" ? "/manuscrito" : "/en/manuscript"} aria-label={lang === "es" ? "Abrir el manuscrito" : "Open the manuscript"}>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img className="hoja" src="/manuscrito/pagina-1.jpg" alt={lang === "es" ? "Primera página del manuscrito de Isaac" : "First page of Isaac’s manuscript"} width={576} height={1024} loading="lazy" />
+            </a>
+          </figure>
+        </section>
+
         <section className="bloque sillas" id="sillas">
           <div className="col-texto">
             <h2>{t.sillas.titulo}</h2>
@@ -76,14 +93,17 @@ export default function Pagina({ lang }: { lang: Lang }) {
             </a>
           </div>
           <ol className="lista-sillas">
-            {t.sillas.lista.map((x) => (
-              <li key={x.lugar}>
+            {t.sillas.lista.map((x, i) => (
+              <li key={`${i}-${x.lugar}`}>
+                <span className="silla-numero" aria-hidden="true">{i + 1}</span>
+                <div className="silla-datos">
                 <span className="lugar">
                   {x.sinagoga ? `${x.sinagoga} · ` : ""}
                   {x.lugar}
                 </span>
                 <span className="pais">{x.pais}</span>
-                <span className="nota">{x.nota}</span>
+                {x.nota && <span className="nota">{x.nota}</span>}
+                </div>
               </li>
             ))}
           </ol>
