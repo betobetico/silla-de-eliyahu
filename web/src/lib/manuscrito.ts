@@ -4,6 +4,8 @@
 export const paginasManuscrito = [
   {
     numero: 1,
+    ancho: 465,
+    alto: 710,
     titulo: "Eliyáhu Hanabí. Zejut Yaguén Alenu",
     parrafos: [
       "En mi casa, era Eliyáhu Hanabí el Tsaddik que más se mencionaba. En cada oportunidad que viajé a Israel, visité en Haifa la gruta desde la que, se dice, el profeta salió hacia el cielo en un carro de fuego. El lugar es impresionante y la vista que se disfruta es inolvidable.",
@@ -18,6 +20,8 @@ export const paginasManuscrito = [
   },
   {
     numero: 2,
+    ancho: 443,
+    alto: 635,
     titulo: "Los viajes a Miami y Maracaibo",
     parrafos: [
       "Yo llevaba un libro de piyutim en cuya portada estaba R. Itzhak Ben Guialid, y dije: “Con este acompañante y con R. kissé Eliyáhu Hanabí, ¿quién no va a ganar?”.",
@@ -33,6 +37,8 @@ export const paginasManuscrito = [
   },
   {
     numero: 3,
+    ancho: 460,
+    alto: 490,
     titulo: "La llegada y la mitzvá",
     parrafos: [
       "…Maracaibo, con el tiempo justo. Nos esperaba un chofer con un camioncito, y como tardaban en entregar los equipajes, apenas vi la silla en lo alto del camión, al pie del avión, le dije a un policía que estaba en la puerta de la pista que, por favor, me permitiera recoger esa silla, pues era urgente, pues la estaban esperando para una ceremonia.",

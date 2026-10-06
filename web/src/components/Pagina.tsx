@@ -79,7 +79,7 @@ export default function Pagina({ lang }: { lang: Lang }) {
           <figure className="manuscrito-adelanto">
             <a href={lang === "es" ? "/manuscrito" : "/en/manuscript"} aria-label={lang === "es" ? "Abrir el manuscrito" : "Open the manuscript"}>
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img className="hoja" src="/manuscrito/pagina-1.jpg" alt={lang === "es" ? "Primera página del manuscrito de Isaac" : "First page of Isaac’s manuscript"} width={576} height={1024} loading="lazy" />
+              <img className="hoja" src="/manuscrito/pagina-1.svg" alt={lang === "es" ? "Primera página del manuscrito de Isaac" : "First page of Isaac’s manuscript"} width={465} height={710} loading="lazy" />
             </a>
           </figure>
         </section>
@@ -172,6 +172,11 @@ export default function Pagina({ lang }: { lang: Lang }) {
             <div className="aviso" role="note">
               <b>{t.descargas.aviso.titulo}</b>
               <p>{t.descargas.aviso.texto}</p>
+            </div>
+            <div className="atribucion" role="note">
+              <h3>{lang === "es" ? "Da crédito a Isaac" : "Credit Isaac"}</h3>
+              <p>{t.descargas.atribucion}</p>
+              <p className="credito-modelo">{t.descargas.credito}</p>
             </div>
             <p className="licencia">{t.descargas.licencia}</p>
           </div>

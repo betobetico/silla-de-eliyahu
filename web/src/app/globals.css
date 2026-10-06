@@ -901,3 +901,8 @@ figcaption {
   .lista-sillas .pais { text-align: left; }
   .manuscrito { padding-top: 6rem; }
 }
+
+.atribucion { margin: 1.5rem 0; padding: 1.1rem 1.2rem; border: 1px solid var(--regla); background: var(--hoja); }
+.atribucion h3 { margin: 0 0 0.8rem; color: var(--caoba); }
+.atribucion p { font-size: 1rem; }
+.atribucion .credito-modelo { margin: 0; font-style: italic; }

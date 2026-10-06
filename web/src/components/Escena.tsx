@@ -100,6 +100,7 @@ export default function Escena({ lang }: { lang: Lang }) {
           <p className="traduccion">{t.hero.traduccion}</p>
           <h1>{t.hero.titulo}</h1>
           <p className="entrada">{t.hero.entrada}</p>
+          <p className="entrada">{t.hero.relato.antes}<a href={t.hero.relato.href}>{t.hero.relato.enlace}</a>{t.hero.relato.despues}</p>
           <p className="acciones">
             {t.hero.acciones.map((a, i) => (
               <a key={a.href} href={a.href} className={i === 0 ? "boton" : "enlace"}>

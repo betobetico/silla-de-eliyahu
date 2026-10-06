@@ -14,7 +14,8 @@ const es = {
     traduccion: "Esta es la silla del profeta Elías, recordado para bien.",
     titulo: "La silla de Eliyahu de Isaac Garzón Serfaty z”l",
     entrada:
-      "Tito Isaque dibujó el plano de esta silla e hizo una. Quería que cada sinagoga tuviera la suya para los britot. Aquí está su plano, para que hagas la tuya.",
+      "Tito Isaque quería que cada sinagoga tuviera su silla de Eliyahu para los britot.",
+    relato: { href: "/manuscrito", antes: "Aquí está ", enlace: "su historia", despues: ", y abajo su plano, para que hagas la tuya y multipliques su mitzvá." },
     acciones: [
       { href: "#descargas", t: "Descarga el plano" },
       { href: "#historia", t: "Cómo se hizo la nuestra" },
@@ -145,6 +146,8 @@ const es = {
       { f: "silla.json", t: "Medidas", d: "Las medidas de cada pieza, para quien quiera modificar la silla." },
     ],
     repo: { t: "GitHub", d: "El código, los escaneos originales y el historial de cambios." },
+    atribucion: "Si utilizas este plano para hacer una silla, reconoce a Isaac Garzón Serfaty z”l como autor del diseño. Puedes usar esta dedicatoria:",
+    credito: "Diseño de Isaac Garzón Serfaty z”l. En su memoria.",
     licencia:
       "Licencia CC BY 4.0: se puede copiar, modificar y vender, siempre que se cite a Isaac Garzón Serfaty z”l.",
     aviso: {
@@ -192,7 +195,8 @@ const en: Dict = {
     traduccion: "This is the chair of Elijah the prophet, remembered for good.",
     titulo: "Elijah's Chair by Isaac Garzón Serfaty z”l",
     entrada:
-      "Uncle Isaque drew the plan of this chair and built one. He wanted every synagogue to have its own for the britot. Here is his plan, so you can build yours.",
+      "Uncle Isaque wanted every synagogue to have its own Elijah’s chair for the britot.",
+    relato: { href: "/en/manuscript", antes: "Here is ", enlace: "his story", despues: ", and below is his plan, so you can build your own and multiply his mitzvah." },
     acciones: [
       { href: "#descargas", t: "Download the plan" },
       { href: "#historia", t: "How ours was made" },
@@ -323,6 +327,8 @@ const en: Dict = {
       { f: "silla.json", t: "Measurements", d: "Every piece's dimensions, for anyone who wants to modify the chair." },
     ],
     repo: { t: "GitHub", d: "The code, the original scans and the change history." },
+    atribucion: "If you use this plan to build a chair, credit Isaac Garzón Serfaty z”l as the designer. You can use this dedication:",
+    credito: "Design by Isaac Garzón Serfaty z”l. In his memory.",
     licencia:
       "CC BY 4.0 license: you may copy, modify and sell it, as long as you credit Isaac Garzón Serfaty z”l.",
     aviso: {

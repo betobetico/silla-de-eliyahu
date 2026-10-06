@@ -27,9 +27,9 @@ export default function Manuscrito({ lang }: { lang: Lang }) {
         {paginasManuscrito.map(p => (
           <section className="manuscrito-pagina" id={`pagina-${p.numero}`} key={p.numero} aria-labelledby={`titulo-${p.numero}`}>
             <figure className="manuscrito-original">
-              <a href={`/manuscrito/pagina-${p.numero}.jpg`} target="_blank" rel="noopener noreferrer" aria-label={es ? `Ampliar imagen original de la página ${p.numero} (abre otra pestaña)` : `Enlarge original image of page ${p.numero} (opens a new tab)`}>
+              <a href={`/manuscrito/pagina-${p.numero}.svg`} target="_blank" rel="noopener noreferrer" aria-label={es ? `Ampliar imagen original de la página ${p.numero} (abre otra pestaña)` : `Enlarge original image of page ${p.numero} (opens a new tab)`}>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img className="hoja" src={`/manuscrito/pagina-${p.numero}.jpg`} width={576} height={1024} alt={es ? `Página ${p.numero} escrita a mano por Isaac Garzón Serfaty` : `Page ${p.numero}, handwritten by Isaac Garzón Serfaty`} loading={p.numero === 1 ? "eager" : "lazy"} decoding="async" />
+                <img className="hoja" src={`/manuscrito/pagina-${p.numero}.svg`} width={p.ancho} height={p.alto} alt={es ? `Página ${p.numero} escrita a mano por Isaac Garzón Serfaty` : `Page ${p.numero}, handwritten by Isaac Garzón Serfaty`} loading={p.numero === 1 ? "eager" : "lazy"} decoding="async" />
               </a>
               <figcaption>{es ? `Página ${p.numero} · Pulsa la imagen para ampliarla.` : `Page ${p.numero} · Click the image to enlarge it.`}</figcaption>
             </figure>
